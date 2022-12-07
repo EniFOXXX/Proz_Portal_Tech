@@ -3,7 +3,9 @@
   margin: 0;
   padding: 0;
 }
-
+body{
+  background-color: rgb(118, 14, 215);
+}
 header {
   background-color: lightgray;
   display: flex;
@@ -28,7 +30,7 @@ nav ul li {
 }
 
 main{
-  background-color: aqua;
+  
   padding-top: 16px;
   color: white;
   width: 800px;
@@ -58,7 +60,7 @@ div h3{
   padding-bottom: 15px;
   font-size: 1.2rem ;
   font-weight: bold;
-  margin-bottom: 5px;
+  
 }
 
 section{
