@@ -46,3 +46,33 @@ console.log(nav)
 
 let autorData = document.querySelectorAll("#posts .post .post-autor , .post-data");
 console.log(autorData)
+
+let elementoH1= document.querySelector("h1");
+console.log(elementoH1);
+console.log(elementoH1.innerText);
+elementoH1.innerText="Letras de músicas"
+
+let elementoMain= document.querySelector("main");
+console.log(elementoMain);
+console.log(elementoMain.innerText);
+console.log(elementoMain.innerHTML);
+
+elementoMain.innerHTML=`
+<h2>Novo subtítulo </h2>
+<ul classe="list">
+   <li>Elemento de lista JS 01</li>
+   <li>Elemento de lista JS 01</li>
+   <li>Elemento de lista JS 01</li>
+
+</ul>`
+
+let elementoJava = document.createElement("li");
+ elementoJava.innerText = " Asa de Àguia"
+ elementoJava.id = "asa"
+ let listagem = document.querySelector(".lista_redes")
+ listagem.appendChild(elementoJava);
+console.log(listagem)
+
+
+
+
