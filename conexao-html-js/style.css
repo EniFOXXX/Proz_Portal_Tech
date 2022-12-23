@@ -21,6 +21,10 @@ aside {
   float: right;
   border: 2px solid #212121;
 }
+div{
+  color: #c41818;
+  font-size: 4rem
+}
 
 #posts {
   max-width: 720px;

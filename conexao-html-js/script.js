@@ -73,6 +73,14 @@ let elementoJava = document.createElement("li");
  listagem.appendChild(elementoJava);
 console.log(listagem)
 
+let div=document.querySelector("div");
+/*div.style.color="blue"
+div.style.color=""
+div.style.backgroundColor="blue"
+div.style.fontSize="50px"*/
+let incluiClasse=div.classList.contains("texto");
+console.log(incluiClasse);
+
 
 
 
