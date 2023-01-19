@@ -52,3 +52,23 @@ emailInput.addEventListener("change",(e)=>{
 
     }
     })
+
+
+    //----------------------Verificação de Senha--------------
+    
+    let confirmaSenhaInput = document.getElementById("confirma-senha");
+    let confirmaSenhaLabel = document.querySelector('label[for="confirma-senha"]');
+    let confirmaSenhaHelper = document.getElementById("confirma-senha-helper");
+
+    togglePopup(confirmaSenhaInput,confirmaSenhaLabel)
+
+    confirmaSenhaInput.addEventListener("blur", (e)=>{
+        let valor = e.target.value
+        if(valor == ""){
+          confirmaSenhaHelper.innerText = "Precisa inserir uma senha"
+          estilizarInputCorreto(confirmaSenhaInput,confirmaSenhaHelper)
+        } else{
+            confirmaSenhaHelper.innerText = "Senha incorreta"
+            estilizarInputIncorreto(confirmaSenhaInput,confirmaSenhaHelper)
+        }
+    })

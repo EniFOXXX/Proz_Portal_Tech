@@ -1,0 +1,15 @@
+
+   ------------------------------- Bancos de dados mais utilizados atualmente ------------------------------------------
+
+
+
+            Banco de dados relacionais são mais conhecidos e mais utilizados atualmente em sistemas ERP, CRM que possui
+         armazenamento em tabelas, cada linha na tabela é um registro com uma ID exclusiva chamada chave, cada
+         coluna é um atributo dos dados e cada registro geralmente tem um valor para cada atributo.Esse tipo de banco de 
+         dados fornece uma maneira mais eficiente e flexivel no acesso de informações estruturais.
+            
+            
+            Banco de dados Orientados a objetos armazenam seus dados em forma de objetos, apresenta como uma série 
+         de caixas com rótulos individuais.Utiliza identificadores para rotular cada objeto. O processo é análogo 
+         à seleção de um registro em uma tabela, através de uma consulta. BDOOs utilizam sereialização como mecanismo de 
+         gravação e leitura de objetos,mas para o usuário isto ocorre de forma transparente.
