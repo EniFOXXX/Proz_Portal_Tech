@@ -1,0 +1,25 @@
+
+
+                          Fortalecer Senhas
+
+     
+      Um erro mais comum que cometemos no ambiente virtual é usar uma mesma senha para diversas plataformas
+  na internet.
+      Para minimizar  problemas futuro com vazamento de senhas, e caindo na mão de pessoas erradas. Segue algumas
+  métodos para fortalecer senhas;
+  
+      1 -  Evitar sempre datas ou palavras simples;
+      
+      2 -  Garantir que a senha seja longa e memorizável.
+      
+      3 -  Nunca anotar senhas em lugares de fácil acesso.
+      
+      4 -  Ter um gerenciador de senhas para acrescentar uma camada de proteção.
+      
+      5 -  Usar frase aleatória e transformá-la em uma senha que use uma regra.
+
+       
+
+
+
+ fonte: Site da empresa Avast
