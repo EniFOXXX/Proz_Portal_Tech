@@ -17,6 +17,8 @@ produto varchar(3),
 quantidade int
 )
 
+// Uso de gatilho \\
+
 delimiter $$
 create trigger inserir_venda after insert
 on itensVenda
@@ -48,4 +50,14 @@ insert into itensVenda values (1, '004', 5);
 
 delete from itensVenda where venda = '1' and produto = '001';
 
-show triggers
+
+
+// Procedimento para total de vendas\\
+
+DELIMITER $$
+create procedure quant_venda()
+begin
+select sum(quantidade)
+from itensVenda;
+end $$
+DELIMITER ;
