@@ -1,0 +1,23 @@
+
+
+
+                                Pilares de Segurança de Dados
+
+           
+             O grande objetivo da segurança da informação é proteger os dados, pois a informação gera valor e cre_
+       dibilidade às organizações. A segurança fortalece a competitividade entre as empresas. A defesa da infraestru_
+       tura das corporações, são os pilares da segurança da informação;
+
+
+             1 - Integridade -->  Responsável por manter as características originais dos dados, como foi criada. Caso 
+       sofra uma alteração, ocorre uma perda de integridade.
+
+             2 - Confidencialidade -->  Proteger a informação de acessos não autorizado. Controlar o acesso por autenticação
+       de senha, uso de biometria e criptografia.
+         
+             3 - Disponibilidade  -->  É preciso que os dados estejam disponíveis no momento que for solicitado, garantindo 
+       o acesso dos usuários em tempo integral.
+
+
+
+  
