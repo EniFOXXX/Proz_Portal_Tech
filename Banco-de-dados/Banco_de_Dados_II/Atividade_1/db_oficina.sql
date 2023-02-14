@@ -60,3 +60,15 @@ select nome,data_revisao,data_entrega from cliente right join revisao on cliente
 select nome,marca from cliente left join veiculo on cliente.id_cliente = veiculo.id_veiculo
 union
 select tipo_servico,servico from cliente right join revisao on cliente.id_cliente = revisao.id_revisao;
+
+
+/* função */
+
+create function soma_cliente(a character)
+returns int
+deterministic
+return  count(a);
+
+
+select soma_cliente(nome) as total
+from cliente
